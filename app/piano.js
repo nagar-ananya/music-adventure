@@ -9,9 +9,9 @@ function initialize() {
 // start loading sounds
 function loadSounds() {
   loadSoundData().then(() => {
-    document.querySelector("#message").remove();
+    document.querySelector("#start-message").remove();
     document.body.addEventListener("keydown", (keyEvent) => {
-      playSound(keyEvent.key);
+      playSound(keyEvent.key); 
     });
   });
 

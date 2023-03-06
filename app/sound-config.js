@@ -1,11 +1,11 @@
 // list of sound files to load
 export const soundConfig = {
   p: {
-    soundFile: "./sounds/tedagame/448532__tedagame__c5.ogg",
+    soundFile: "./sounds/tedagame/c5.ogg",
     buffer: null,
   },
   q: {
-    soundFile: "./sounds/tedagame/448533__tedagame__c6.ogg",
+    soundFile: "./sounds/tedagame/g1.ogg",
     buffer: null,
   },
 };
